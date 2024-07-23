@@ -1,0 +1,12 @@
+.chat_input {
+    width: 270px;
+    height: 49px;
+    text-align: center;
+}
+
+.chat_input::placeholder {
+    color: #888; /* Цвет placeholder */
+    text-align: center; /* Центрирует placeholder */
+    font-size: 14px; /* Размер шрифта placeholder */
+    margin-right: 40px;
+  }

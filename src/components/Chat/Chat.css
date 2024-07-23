@@ -1,0 +1,155 @@
+.container_chat {
+    display: flex;
+    justify-content: center;
+    background-color: #F9F7F2;
+    margin-top: 40px;
+    margin-bottom: 134px;
+}
+
+.name_chat {
+    display: flex;
+    gap: 23px;
+    width: 880px;
+}
+
+.user_header, .admin_header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    width: 415px;
+    height: 98px;
+    margin-top: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.stars {
+    margin-top: 2px;
+}
+
+.name {
+    font-size: 18px;
+}
+
+.ava_photo {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.employer {
+    margin-right: 60px;
+}
+
+.employer_admin {
+    margin-right: 180px;
+}
+
+.job_container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 6px;
+}
+
+.flag {
+    width: 7.27px;
+    height: 10px;
+    margin-top: 5px;
+}
+
+.name_job {
+    font-size: 13px;
+}
+
+.user_main, .admin_main {
+    background-color: white;
+    width: 415px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow-y: auto;
+    max-height: 400px; /* Adjust the height as needed */
+}
+
+/* Custom scrollbar styles */
+.user_main::-webkit-scrollbar, .admin_main::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+.user_main::-webkit-scrollbar-track, .admin_main::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.user_main::-webkit-scrollbar-thumb, .admin_main::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 10px;
+}
+
+.user_main::-webkit-scrollbar-thumb:hover, .admin_main::-webkit-scrollbar-thumb:hover {
+    background: darkred;
+}
+
+.photo_chat {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.photo_chat_footer {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.line {
+    border-left: 1px solid gray;
+    height: 650px;
+    margin-top: 40px;
+    box-sizing: co;
+}
+
+.info {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.message_employer, .message_user, .message_admin {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    margin-top: 18px;
+    align-items: flex-start;
+}
+
+.message_user {
+    justify-content: flex-start;
+    background-color: #F9F7F2;
+}
+
+.message_employer {
+    justify-content: flex-start;
+}
+
+.message_admin {
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+.time_message {
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.user_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 415px;
+    height: 98px;
+    background-color: white;
+    border-top: 1px solid gray;
+}
